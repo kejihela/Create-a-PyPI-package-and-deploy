@@ -2,20 +2,12 @@ import os
 from pathlib import Path
 
 
+package_name = "mangodb_connect"
+
 list_of_files = [
-".github/workflows/.gitkeep",
-"src/components/__init__.py",
-"src/components/data_ingestion.py",
-"src/components/data_transformtion.py",
-"src/components/model_trainer.py",
-"src/components/model_evaluation.py",
-"src/pipeline/__init__.py",
-"src/pipeline/training_pipeline.py",
-"src/pipeline/prediction_pipeline.py",
-"src/utils/__init__.py",
-"src/utils/utils.py",
-"src/logger/logging.py",
-"src/exception/exception.py",
+".github/workflows/ci.yaml",
+f"src/{package_name}/__init__.py",
+f"src/{package_name}/mongo_crud.py",
 "tests/unit/__init__.py",
 "tests/unit/unit.py",
 "tests/integration/integration.py",
@@ -28,6 +20,8 @@ list_of_files = [
 "experiment/experiment.ipynb",
 "tox.ini"
 ]
+
+
 
 
 for filepath in list_of_files:
