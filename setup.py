@@ -18,7 +18,7 @@ with open('README.md', 'r', encoding='utf-8') as f:
     long_description = f.read()     
    
 
-__version__ = "0.0.1"
+__version__ = "0.0.5"
 REPO_NAME = "Create-a-PyPI-package-and-deploy"
 PKG_NAME= "DatabaseConnection"
 AUTHOR_USER_NAME = "kejihela"
@@ -38,7 +38,6 @@ setup(
     },
     package_dir={"": "src"},
     packages=find_packages(where="src"),
-    install_requires=get_requiremet("./requirements_dev.txt"),
-    
+    install_requires=["pymongo", "dnspython", "pymongo[srv]","pandas","numpy","pytest","ensure "],
     
 )
