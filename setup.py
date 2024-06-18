@@ -22,7 +22,7 @@ __version__ = "0.0.5"
 REPO_NAME = "Create-a-PyPI-package-and-deploy"
 PKG_NAME= "DatabaseConnection"
 AUTHOR_USER_NAME = "kejihela"
-AUTHOR_EMAIL = "gleebayour@gmaail.com"
+AUTHOR_EMAIL = "gleebayour@gmail.com"
 
 setup(
     name=PKG_NAME,
