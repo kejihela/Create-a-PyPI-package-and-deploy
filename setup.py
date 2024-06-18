@@ -20,7 +20,7 @@ with open('README.md', 'r', encoding='utf-8') as f:
 
 __version__ = "0.0.8"
 REPO_NAME = "Create-a-PyPI-package-and-deploy"
-PKG_NAME= "ConnectDatabase"
+PKG_NAME= "Mongo"
 AUTHOR_USER_NAME = "kejihela"
 AUTHOR_EMAIL = "gleebayour@gmail.com"
 
